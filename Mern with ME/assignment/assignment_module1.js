@@ -12,4 +12,4 @@ function multiplicationTable(num)
 
 }
 
-multiplicationTable(10)
+multiplicationTable(8)
