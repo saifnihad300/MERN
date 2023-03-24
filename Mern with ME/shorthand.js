@@ -32,7 +32,7 @@ var str1 ="Smith"
 var str2 = `My name is ${str} ${str1}`
 console.log(str2)
 */
-
+/*
 function greet(name="Alice")
 {
     console.log(`Hello ${name}`)
@@ -76,3 +76,27 @@ let newAge = "29"
 person={fname,newAge}
 
 console.log(person)
+*/
+/*
+//object literal method shorthands
+
+let person={
+    fname: "Alison",
+    age:"29",
+    greet(){
+        console.log(`My name is ${this.fname},I am ${this.age} years old.`)
+    }
+}
+
+person.greet()
+*/
+/*
+//array 
+let numbers=[1,5,6,9,2]
+let evens = numbers.filter(num=>num%2===0)
+console.log(evens)
+let squred = numbers.map(num=>num*num)
+console.log(squred)
+let sum = numbers.reduce((acc,num)=>acc+num,0)
+console.log(sum)
+*/
