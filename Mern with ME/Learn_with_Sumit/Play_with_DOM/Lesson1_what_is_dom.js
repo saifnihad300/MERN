@@ -1,0 +1,1 @@
+// dom is document object model.
