@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mern with Rabbil</title>
+</head>
+<body onload="myEvent('Load Done')"> //webpage completely load then it fire.
+    <input onchange="myEvent('Change Done')"/><br/>
+    <input onkeydown="myEvent('On Keydown Done')"/><br/>
+    <input onkeyup="myEvent('Key Up Done')"/><br/>
+    <script>
+
+    function myEvent(message)
+    {
+        console.log(message)
+    }
+
+    </script>
+    
+</body>
+</html>

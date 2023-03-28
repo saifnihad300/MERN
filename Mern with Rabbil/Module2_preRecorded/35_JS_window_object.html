@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn with Rabbil</title>
+</head>
+<body>
+ //alert();
+ //confirm();
+ //prompt();
+ //open();
+ //close();
+ //setTimeout();
+
+    
+    <button onclick="objClose()">Click</button>
+
+    <script>
+      function objAlert()
+      {
+        alert("causion!!!")
+      }
+      function objConfirm()
+      {
+        let result = confirm('Do you want to delete!') //confirmation from the user!true and false.
+        document.write(result)
+      }
+      function objPrompt()
+      {
+        let Name = prompt("Write your Name ?") //input from user
+        document.write(Name)
+      }
+      function objOpen() //open a new window
+      {
+        open();
+      }
+      function objClose()  //close a window
+      {
+        close();
+      }
+
+      setTimeout(function(){
+        alert("Alert after 10 sec")
+      }, 10000) //2 parameter; shows an alert after 10 sec when the code is executed.By default it counted milisec.
+
+
+    </script>
+</body>
+</html>
