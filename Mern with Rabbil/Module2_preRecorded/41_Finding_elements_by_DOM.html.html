@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Practice</title>
+</head>
+<body>
+
+     <!-- //Find html element by id
+     <h1 id = "MyId">  </h1>
+     <script>
+      
+     var myElement =   document.getElementById('MyId')
+     myElement.innerHTML = "MERN"
+      -->
+
+    <!-- <h1 class = "MyClass"></h1>
+    <h6 class = "MyClass"> </h6>
+    <button class="MyClass"> </button>
+
+    <script>
+     var myElements = document.getElementsByClassName('MyClass');
+     myElements[2].innerHTML = "Mern with Rabbil"
+     myElements[0].innerHTML = "Mern with Rabbil" -->
+
+     <!-- <h1 name = "myName">Saiful Islam</h1>
+     <h5 name = "myName">Mern Batch-III </h5>
+     <h6 name = "myName"> Mern with Rabbil</h6>
+     <button name="myName">MERN</button>
+
+     <script>
+     var  myElement = document.getElementsByName("myName")
+     myElement[0].innerHTML = "SAIF"
+     myElement[1].innerHTML = "B-III"
+     myElement[2].innerHTML = "M-Rabbil"
+     myElement[3].innerHTML = "BUTTON" -->
+
+     
+
+      <p>paragraph1</p>
+      <p>paragraph2</p>
+      <p>paragraph3</p>
+
+      <script>
+        //when there is no id,class,name then identify with the Tagname.
+        //to find the element by tag 
+        
+      let MyElements = document.getElementsByTagName('p')
+      MyElements[2].innerHTML = "Paragraph 3 is manipulated"
+     
+    </script>
+</body>
+</html>
