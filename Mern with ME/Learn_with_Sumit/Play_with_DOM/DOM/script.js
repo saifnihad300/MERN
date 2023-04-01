@@ -247,6 +247,9 @@ inputElement.addEventListener('keydown',(event)=>
 
    //select elements and assign them to variables
 
+
+
+
 let newTask = document.querySelector('#new-task') //select input box
 let form  = document.querySelector('form')//select form.
 //select the container 'Incomplete Tasks' ul id = 'items' and completeUl
