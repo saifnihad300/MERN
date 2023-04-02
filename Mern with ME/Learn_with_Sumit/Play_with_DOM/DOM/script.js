@@ -310,8 +310,8 @@ let completeTask = function()
 
   //remove the checkBox to the completed task
 
-  let checkBox = listItem.querySelector('input[type="checkbox]"')
-  checkBox.remove();
+//   let checkBox = listItem.querySelector('input[type="checkbox]"')
+//   checkBox.remove();
   //push the task to the complete ul
 
   completeUl.appendChild(listItem)
