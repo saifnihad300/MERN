@@ -1,0 +1,16 @@
+HTTP Request methods
+
+*GET()
+*DELETE()
+*POST()
+*PUT()
+*OPTIONS()
+*HEAD()
+
+HTTP RESPONSE
+
+*Status Code
+  (200/404/500)
+*Data
+  *Head
+  *Body

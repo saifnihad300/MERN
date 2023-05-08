@@ -1,0 +1,14 @@
+Tools
+* Node js
+* VS Code
+* Webstrome
+
+Terminal
+
+* Windows CMD
+* Windows Powershell
+* VS Code Terminal Option
+* Webstrome Terminal Option
+* Node js Terminal
+
+

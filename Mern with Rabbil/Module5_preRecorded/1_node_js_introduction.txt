@@ -1,0 +1,31 @@
+What is Node js?
+JavaScript created as client side language/ front end language.
+Only handle front end logics.JavaScript has no power to communicate with server.
+
+JavaScript Can do:
+/*
+* Interact with temporary storage
+* Make Interactive web pages
+* Interact with local storage
+* Sending request for data to server
+* Send request to server
+* Work as an interface between server and user.
+*/
+
+Using Node js platform JS can do:
+/*
+* Querying the database
+* Operations over database
+* Access/Write a file on server
+* Server Slide Request, Response handle
+* Software Backend Operations.
+*/
+
+// Node js own library which can manage the Node js platform.
+
+//Third Party Library Management
+/*
+* NPM (Node Package Manager)
+*/
+
+

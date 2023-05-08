@@ -1,0 +1,15 @@
+//Module in Node.js is a simple/complex functionality organized in single or multiple JavaScript files.
+
+// Node.js includes three types of modules:
+* Core Modules
+* Local Modules
+* Third Party Modules
+
+// Node.js Core Module
+
+* http
+* url
+* querystring
+* path
+* fs
+* util
