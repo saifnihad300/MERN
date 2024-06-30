@@ -56,7 +56,53 @@ var server =  http.createServer(function (req, res){
         res.write('File Rename successfully');
         res.end();
     }
+    else if(req.url==="/fDeleteAsync"){
+        fs.unlink('deletefile.txt', function(error){
+            if(error){
+                res.writeHead(200, {'Content-Type': 'text/html'});
+                res.write("File Delete failed");
+                res.end();
+            }
+            else{
+                res.writeHead(200, {'Content-Type': 'text/html'});
+                res.write("File Delete successfully");
+                res.end();
+            }
+        })
+    }
+    else if(req.url==="/fDeleteSync"){
+        let error = fs.unlinkSync('deletefilesync.txt');
+        if(error){
+            res.writeHead(200, {'Content-Type': 'text/html'});
+            res.write("File Delete failed");
+            res.end();
+        }
+        else{
+            res.writeHead(200, {'Content-Type': 'text/html'});
+            res.write("File Delete successfully");
+            res.end();
+        }
+    }
+    else if(req.url==="/fExistSync") {
+        let fileExists = fs.existsSync("home.html");
+        if(fileExists){
+            res.end("Existing home page");
+        }
+        else{
+            res.end("Not found home page");
+        }
+    }
+    else if(req.url==="/fExistAsync"){
+        fs.exists("fileWrite.txt", function(result){
+            if(result){
+                res.end("Existing text file");
+            }
+            else {
+                res.end("Not found text file");
+            }
+        })
+    }
 });
 
-server.listen(5101);
-console.log("server listening on 5050");
+server.listen(8102);
+console.log("server listening on 5190");
