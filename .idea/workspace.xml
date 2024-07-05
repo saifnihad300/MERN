@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76a5f51f-0e35-4a91-ad33-bce699afca43" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module 5/Mern with Rabbil/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module 5/Mern with Rabbil/fsModule/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Module 5/Mern with Rabbil/fsModule/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="76a5f51f-0e35-4a91-ad33-bce699afca43" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,6 +51,7 @@
       <updated>1719765101433</updated>
       <workItem from="1719765102510" duration="1990000" />
       <workItem from="1719767787945" duration="25000" />
+      <workItem from="1719815705330" duration="608000" />
     </task>
     <servers />
   </component>
